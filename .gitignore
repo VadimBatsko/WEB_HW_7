@@ -1,3 +1,33 @@
 config.ini
+# PyCharm specific files
+.idea/
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual environment
+.venv/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files (може містити особисті налаштування)
+*.iml
+.project
+.workspace
 
