@@ -7,6 +7,7 @@ from random import randint, choice
 
 faker = Faker('uk_UA')
 
+
 def group_add():
     print('group_add start')
     for i in range(3):
@@ -53,6 +54,7 @@ def grade_add():
                            date_of_grade=faker.date_between(start_date='-1y'))
             session.add(grade)
     print('grade_add end')
+
 
 if __name__ == '__main__':
     try:
